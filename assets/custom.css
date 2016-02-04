@@ -1,0 +1,16 @@
+button:hover {
+	background-color: blue;
+	outline: none;
+}
+
+tr:nth-child(even) {
+	background-color: grey;
+}
+
+tr:nth-child(odd) {
+	background-color: #eeeeee;
+}
+
+tr:first-child {
+	background-color: blue;
+}
