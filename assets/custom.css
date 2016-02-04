@@ -2,7 +2,9 @@ button:hover {
 	background-color: blue;
 	outline: none;
 }
-
+li{
+	color:red;
+}
 
 li {
 	display: inline-block;
