@@ -3,6 +3,11 @@ button:hover {
 	outline: none;
 }
 
+h1:after {
+	content: "  |  ";
+	font-family: 'FontAwesome';
+}
+
 tr:nth-child(even) {
 	background-color: grey;
 }
