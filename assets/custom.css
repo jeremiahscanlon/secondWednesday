@@ -3,13 +3,22 @@ button:hover {
 	outline: none;
 }
 
-h1:after {
+
+li {
+	display: inline-block;
+}
+
+li::after{
 	content: "  |  ";
 	font-family: 'FontAwesome';
 }
 
+li:last-child::after {
+	content:"";
+}
+
 tr:nth-child(even) {
-	background-color: grey;
+	background-color: #ffffff;
 }
 
 tr:nth-child(odd) {
